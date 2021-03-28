@@ -9,5 +9,5 @@ app.listen(port, err => {
   if (err) {
     return console.error(err);
   }
-  return console.log(`server is listening on $ http://localhost:${port}`);
+  return console.log(`express server is listening on $ http://localhost:${port}`);
 });

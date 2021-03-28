@@ -5,16 +5,18 @@
   "main": "dist/server.js",
   "scripts": {
     "start": "tsc && node dist/server.js",
+    "start:dev": "nodemon --exec ts-node ./src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Frank A Odoom",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.37",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
     "tslint": "^5.12.1",
     "typescript": "^3.3.3"
   }
